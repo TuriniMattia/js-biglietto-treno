@@ -10,6 +10,11 @@
 // 2-verificare numero di kilometri
     let customersKm = prompt("Inserisci km tratta") //string
 // 3-calcolare prezzo del biglietto in base ai km (0,21 euro/km)
+    let ticketCost = (customersKm * 0,21)
+    ticketCost.toFixed(2);
+    console.log("Total:", ticketCost)
+    
 // 4-SE (IF) età passeggero < 18 === sconto 20%
+    
 // 5-ALTRIMENTI SE (EVEN IF) età  del passeggero > 65 === sconto 40%
 // 6-ALtrimenti età passeggero età passeggero >= 18 e <65 prezzo pieno
