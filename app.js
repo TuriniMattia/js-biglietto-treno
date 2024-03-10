@@ -19,10 +19,12 @@
 // 4-SE (IF) età passeggero < 18 === sconto 20%
     if(customersAge < 18){
         sconto = ticketCost - (ticketCost * 0.2)
+        console.log("Totale scontato", sconto)
     }
     
 // 5-ALTRIMENTI SE (EVEN IF) età  del passeggero > 65 === sconto 40%
     else if(customersAge > 65){
         sconto = ticketCost - (ticketCost * 0,4) 
+        console.log("Totale scontato", sconto)
     }
 // 6-ALtrimenti età passeggero età passeggero >= 18 e <65 prezzo pieno
